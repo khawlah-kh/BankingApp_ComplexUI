@@ -10,16 +10,16 @@ import SwiftUI
 
 
 enum CardType : String{
-    case silver
-    case gold
-    case platinum
+    case silver = "SILVER"
+    case gold = "GOLD"
+    case platinum = "PLATINUM"
 }
 
 
 enum CompanyType : String{
-    case visa
-    case master
-    case amex
+    case visa = "VISA"
+    case master = "MASTER CARD"
+    case amex = "AMEX"
 }
 struct Card : Identifiable {
     

@@ -16,6 +16,8 @@
 		90B6928F27E5AACB00D71829 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6928E27E5AACB00D71829 /* Expense.swift */; };
 		90B6929127E5ABA800D71829 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929027E5ABA800D71829 /* DummyData.swift */; };
 		90B6929327E5AFE400D71829 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929227E5AFE400D71829 /* Colors.swift */; };
+		90B6929527E5B83A00D71829 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929427E5B83A00D71829 /* CardViewModel.swift */; };
+		90B6929727E5C91A00D71829 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929627E5C91A00D71829 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		90B6928E27E5AACB00D71829 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		90B6929027E5ABA800D71829 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
 		90B6929227E5AFE400D71829 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		90B6929427E5B83A00D71829 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		90B6929627E5C91A00D71829 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				90B6927927E5A6AB00D71829 /* ContentView.swift */,
+				90B6929627E5C91A00D71829 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 		90B6928827E5A73E00D71829 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				90B6929427E5B83A00D71829 /* CardViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -193,9 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				90B6929127E5ABA800D71829 /* DummyData.swift in Sources */,
+				90B6929727E5C91A00D71829 /* CardView.swift in Sources */,
 				90B6927A27E5A6AB00D71829 /* ContentView.swift in Sources */,
 				90B6928B27E5A82100D71829 /* Card.swift in Sources */,
 				90B6929327E5AFE400D71829 /* Colors.swift in Sources */,
+				90B6929527E5B83A00D71829 /* CardViewModel.swift in Sources */,
 				90B6928D27E5A9E200D71829 /* Transaction.swift in Sources */,
 				90B6927827E5A6AB00D71829 /* TransactionsAppApp.swift in Sources */,
 				90B6928F27E5AACB00D71829 /* Expense.swift in Sources */,
