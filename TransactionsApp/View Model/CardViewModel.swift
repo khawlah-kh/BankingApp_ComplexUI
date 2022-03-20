@@ -26,8 +26,6 @@ class CardViewModel : ObservableObject{
             }
         }
         return dates
-        
-        
     }
     
     func getModifiedDate(date:String)->String{
@@ -36,7 +34,7 @@ class CardViewModel : ObservableObject{
         dateFormatter.dateFormat = "dd MM yyyy"
         if let currentDate = dateFormatter.date(from: currentDateString){
             if let givenDate = dateFormatter.date(from: date){
-            let difference = Calendar.current.dateComponents([.day], from: currentDate,to: givenDate)
+                let difference = Calendar.current.dateComponents([.day], from: currentDate,to: givenDate)
                 
                 if abs(difference.day!) == 0{
                     modifiedDate = "Today"
@@ -44,10 +42,10 @@ class CardViewModel : ObservableObject{
                 else if abs(difference.day!) == 1{
                     modifiedDate = "Yesterday"
                 }
+            }
         }
+        return modifiedDate
     }
- return modifiedDate
-}
     
     func getTransactions(for date : String,number:String)->[Transaction]{
         
@@ -64,7 +62,7 @@ class CardViewModel : ObservableObject{
         
         return transactions
     }
-
+    
     func getMaxExpense()->Float{
         
         return DummyData.transactions.map {$0.amount }.max()!

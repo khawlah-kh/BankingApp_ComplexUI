@@ -17,7 +17,7 @@ extension Color{
     static let imageTint2 = Color(red: 120/255, green: 90/255, blue: 201/255)
     
     static let border = Color(red: 66/255, green: 38/255, blue: 135/255)
-
+    
     static let cardBottomLeft = Color(red: 107/255, green: 27/255, blue: 255/255)
     static let cardTopRight = Color(red: 134/255, green: 65/255, blue: 255/255)
     static let cardGradient = LinearGradient(gradient: Gradient(colors: [Color.cardTopRight,Color.cardBottomLeft]), startPoint: .topTrailing, endPoint: .bottomLeading)

@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CardView: View {
-    @StateObject var viewModel = CardViewModel()
     let card : Card
     var body: some View {
         ZStack{
@@ -36,7 +35,7 @@ struct CardView: View {
                     Text("\(card.company.rawValue)")
                         .italic()
                         .foregroundColor(.white)
-                        .font(.largeTitle)
+                        .font(.title)
                         .bold()
                         
                     
