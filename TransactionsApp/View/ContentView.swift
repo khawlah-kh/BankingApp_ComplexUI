@@ -27,13 +27,14 @@ struct ContentView: View {
                 .indexViewStyle(.page(backgroundDisplayMode: .never))
                 
                 TransactionRowView()
-                ScrollView{
-                    LazyVStack{
-                        ForEach(DummyData.transactions){transaction in
-                            TransactionListRow(transaction: transaction, isLast: false)
-                        }
-                    }
-                }
+                TransactionListView(currentIndex: .constant(0))
+//                ScrollView{
+//                    LazyVStack{
+//                        ForEach(DummyData.transactions){transaction in
+//                            TransactionListRow(transaction: transaction, isLast: false)
+//                        }
+//                    }
+//                }
             }
         }
     }
