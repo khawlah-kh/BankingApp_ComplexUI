@@ -19,7 +19,6 @@ struct TransactionRowView: View {
                 
             } label: {
                 Image(systemName: "arrow.up.arrow.down")
-                
             }
             
             

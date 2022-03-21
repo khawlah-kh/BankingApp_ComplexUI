@@ -12,6 +12,8 @@
 		90A2777727E6EAF400867CEB /* TransactionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777627E6EAF400867CEB /* TransactionListRow.swift */; };
 		90A2777927E6FC5300867CEB /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777827E6FC5300867CEB /* TransactionListView.swift */; };
 		90A2777B27E6FEFC00867CEB /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */; };
+		90A7322527E8419E00B1B6A8 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A7322427E8419E00B1B6A8 /* ProgressView.swift */; };
+		90A7322727E8449D00B1B6A8 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A7322627E8449D00B1B6A8 /* CardInfoView.swift */; };
 		90B6927827E5A6AB00D71829 /* TransactionsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6927727E5A6AB00D71829 /* TransactionsAppApp.swift */; };
 		90B6927A27E5A6AB00D71829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6927927E5A6AB00D71829 /* ContentView.swift */; };
 		90B6927C27E5A6AC00D71829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B6927B27E5A6AC00D71829 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		90A2777627E6EAF400867CEB /* TransactionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRow.swift; sourceTree = "<group>"; };
 		90A2777827E6FC5300867CEB /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		90A7322427E8419E00B1B6A8 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		90A7322627E8449D00B1B6A8 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
 		90B6927427E5A6AB00D71829 /* TransactionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B6927727E5A6AB00D71829 /* TransactionsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAppApp.swift; sourceTree = "<group>"; };
 		90B6927927E5A6AB00D71829 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90A7322327E8418B00B1B6A8 /* Card Details */ = {
+			isa = PBXGroup;
+			children = (
+				90A7322427E8419E00B1B6A8 /* ProgressView.swift */,
+				90A7322627E8449D00B1B6A8 /* CardInfoView.swift */,
+			);
+			path = "Card Details";
+			sourceTree = "<group>";
+		};
 		90B6926B27E5A6AB00D71829 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		90B6928527E5A71F00D71829 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				90A7322327E8418B00B1B6A8 /* Card Details */,
 				90B6927927E5A6AB00D71829 /* ContentView.swift */,
 				90B6929627E5C91A00D71829 /* CardView.swift */,
 				90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */,
@@ -215,6 +229,7 @@
 			files = (
 				90B6929127E5ABA800D71829 /* DummyData.swift in Sources */,
 				90A2777727E6EAF400867CEB /* TransactionListRow.swift in Sources */,
+				90A7322527E8419E00B1B6A8 /* ProgressView.swift in Sources */,
 				90B6929727E5C91A00D71829 /* CardView.swift in Sources */,
 				90A2777327E6E7CE00867CEB /* MenuHeaderView.swift in Sources */,
 				90B6927A27E5A6AB00D71829 /* ContentView.swift in Sources */,
@@ -226,6 +241,7 @@
 				90B6928D27E5A9E200D71829 /* Transaction.swift in Sources */,
 				90B6927827E5A6AB00D71829 /* TransactionsAppApp.swift in Sources */,
 				90A2777527E6E9C400867CEB /* TransactionRowView.swift in Sources */,
+				90A7322727E8449D00B1B6A8 /* CardInfoView.swift in Sources */,
 				90B6928F27E5AACB00D71829 /* Expense.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

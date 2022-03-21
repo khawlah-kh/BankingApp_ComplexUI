@@ -28,13 +28,7 @@ struct ContentView: View {
                 
                 TransactionRowView()
                 TransactionListView(currentIndex: .constant(0))
-//                ScrollView{
-//                    LazyVStack{
-//                        ForEach(DummyData.transactions){transaction in
-//                            TransactionListRow(transaction: transaction, isLast: false)
-//                        }
-//                    }
-//                }
+
             }
         }
     }

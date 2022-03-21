@@ -11,13 +11,13 @@ struct TransactionListRow: View {
     let transaction : Transaction
     let isLast : Bool
     var body: some View {
-
-            VStack{
+        
+        VStack{
             HStack{
                 ZStack{
-               Circle()
-                    .foregroundColor(Color.border)
-                    .frame(width: 50, height: 50)
+                    Circle()
+                        .foregroundColor(Color.border)
+                        .frame(width: 50, height: 50)
                     
                     Image(systemName: "applelogo")
                         .foregroundColor(.brandSecondary)
@@ -41,14 +41,14 @@ struct TransactionListRow: View {
             }.foregroundColor(.white)
                 .padding()
             
-                
-             Divider()
-                    .foregroundColor(.red)
-                    .opacity(isLast ? 0.0 : 1.0)
-                    .padding(.horizontal,50)
-                    .padding(.bottom,8)
-            }
+            
+            Divider()
+                .foregroundColor(.red)
+                .opacity(isLast ? 0.0 : 1.0)
+                .padding(.horizontal,50)
+                .padding(.bottom,8)
         }
+    }
 }
 
 struct TransactionListRow_Previews: PreviewProvider {
