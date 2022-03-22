@@ -27,7 +27,7 @@ struct DummyData{
     
     static var expenses : [Expense] = [.init(month: "Jan", amount: 20000),
                                        .init(month: "Feb", amount: 25000),
-                                       .init(month: "Mar", amount: 10000),
+                                       .init(month: "Mar", amount: 20000),
                                        .init(month: "Apr", amount: 29000),
                                        .init(month: "May", amount: 50000)]
     

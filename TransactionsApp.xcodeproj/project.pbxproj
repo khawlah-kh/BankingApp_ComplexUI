@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909B095227EA223A007CB0B5 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B095127EA223A007CB0B5 /* GraphView.swift */; };
 		90A2777327E6E7CE00867CEB /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */; };
 		90A2777527E6E9C400867CEB /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777427E6E9C400867CEB /* TransactionRowView.swift */; };
 		90A2777727E6EAF400867CEB /* TransactionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777627E6EAF400867CEB /* TransactionListRow.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		909B095127EA223A007CB0B5 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 		90A2777427E6E9C400867CEB /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
 		90A2777627E6EAF400867CEB /* TransactionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRow.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				90A7322427E8419E00B1B6A8 /* ProgressView.swift */,
 				90A7322627E8449D00B1B6A8 /* CardInfoView.swift */,
+				909B095127EA223A007CB0B5 /* GraphView.swift */,
 			);
 			path = "Card Details";
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				90B6929527E5B83A00D71829 /* CardViewModel.swift in Sources */,
 				90B6928D27E5A9E200D71829 /* Transaction.swift in Sources */,
 				90B6927827E5A6AB00D71829 /* TransactionsAppApp.swift in Sources */,
+				909B095227EA223A007CB0B5 /* GraphView.swift in Sources */,
 				90A2777527E6E9C400867CEB /* TransactionRowView.swift in Sources */,
 				90A7322727E8449D00B1B6A8 /* CardInfoView.swift in Sources */,
 				90B6928F27E5AACB00D71829 /* Expense.swift in Sources */,
