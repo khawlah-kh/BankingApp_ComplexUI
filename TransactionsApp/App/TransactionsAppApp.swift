@@ -11,8 +11,9 @@ import SwiftUI
 struct TransactionsAppApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            GraphView()
+        // ContentView()
+            CardDetailsView(card:.constant(DummyData.cards[0]))
+           // GraphView()
         }
     }
 }

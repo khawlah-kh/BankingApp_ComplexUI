@@ -14,7 +14,7 @@ struct ContentView: View {
         ZStack {
             Color.brandPrimary.ignoresSafeArea()
             VStack{
-                MenuHeaderView()
+                MenuHeaderView(imageName1: "line.horizontal.3", title: "HOME", imageName2: "magnifyingglass")
                 TabView{
                     ForEach(DummyData.cards){card in
                         CardView(card: card)
@@ -26,7 +26,7 @@ struct ContentView: View {
                 .tabViewStyle(.page)
                 .indexViewStyle(.page(backgroundDisplayMode: .never))
                 
-                TransactionRowView()
+                SectionView(title: "Transactions", imageName:"arrow.up.arrow.down")
                 TransactionListView(currentIndex: .constant(0))
 
             }

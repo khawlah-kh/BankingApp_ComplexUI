@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		909B095227EA223A007CB0B5 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B095127EA223A007CB0B5 /* GraphView.swift */; };
 		90A2777327E6E7CE00867CEB /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */; };
-		90A2777527E6E9C400867CEB /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777427E6E9C400867CEB /* TransactionRowView.swift */; };
+		90A2777527E6E9C400867CEB /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777427E6E9C400867CEB /* SectionView.swift */; };
 		90A2777727E6EAF400867CEB /* TransactionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777627E6EAF400867CEB /* TransactionListRow.swift */; };
 		90A2777927E6FC5300867CEB /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777827E6FC5300867CEB /* TransactionListView.swift */; };
 		90A2777B27E6FEFC00867CEB /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */; };
@@ -26,12 +26,13 @@
 		90B6929327E5AFE400D71829 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929227E5AFE400D71829 /* Colors.swift */; };
 		90B6929527E5B83A00D71829 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929427E5B83A00D71829 /* CardViewModel.swift */; };
 		90B6929727E5C91A00D71829 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6929627E5C91A00D71829 /* CardView.swift */; };
+		90E209AC27EB72C50043A0EF /* CardDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E209AB27EB72C50043A0EF /* CardDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		909B095127EA223A007CB0B5 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
-		90A2777427E6E9C400867CEB /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
+		90A2777427E6E9C400867CEB /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		90A2777627E6EAF400867CEB /* TransactionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRow.swift; sourceTree = "<group>"; };
 		90A2777827E6FC5300867CEB /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		90B6929227E5AFE400D71829 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		90B6929427E5B83A00D71829 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		90B6929627E5C91A00D71829 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		90E209AB27EB72C50043A0EF /* CardDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				90A7322427E8419E00B1B6A8 /* ProgressView.swift */,
 				90A7322627E8449D00B1B6A8 /* CardInfoView.swift */,
 				909B095127EA223A007CB0B5 /* GraphView.swift */,
+				90E209AB27EB72C50043A0EF /* CardDetailsView.swift */,
 			);
 			path = "Card Details";
 			sourceTree = "<group>";
@@ -117,7 +120,7 @@
 				90B6927927E5A6AB00D71829 /* ContentView.swift */,
 				90B6929627E5C91A00D71829 /* CardView.swift */,
 				90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */,
-				90A2777427E6E9C400867CEB /* TransactionRowView.swift */,
+				90A2777427E6E9C400867CEB /* SectionView.swift */,
 				90A2777627E6EAF400867CEB /* TransactionListRow.swift */,
 				90A2777827E6FC5300867CEB /* TransactionListView.swift */,
 				90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */,
@@ -237,6 +240,7 @@
 				90A2777327E6E7CE00867CEB /* MenuHeaderView.swift in Sources */,
 				90B6927A27E5A6AB00D71829 /* ContentView.swift in Sources */,
 				90B6928B27E5A82100D71829 /* Card.swift in Sources */,
+				90E209AC27EB72C50043A0EF /* CardDetailsView.swift in Sources */,
 				90B6929327E5AFE400D71829 /* Colors.swift in Sources */,
 				90A2777B27E6FEFC00867CEB /* ListHeaderView.swift in Sources */,
 				90A2777927E6FC5300867CEB /* TransactionListView.swift in Sources */,
@@ -244,7 +248,7 @@
 				90B6928D27E5A9E200D71829 /* Transaction.swift in Sources */,
 				90B6927827E5A6AB00D71829 /* TransactionsAppApp.swift in Sources */,
 				909B095227EA223A007CB0B5 /* GraphView.swift in Sources */,
-				90A2777527E6E9C400867CEB /* TransactionRowView.swift in Sources */,
+				90A2777527E6E9C400867CEB /* SectionView.swift in Sources */,
 				90A7322727E8449D00B1B6A8 /* CardInfoView.swift in Sources */,
 				90B6928F27E5AACB00D71829 /* Expense.swift in Sources */,
 			);

@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct TransactionRowView: View {
+struct SectionView: View {
+    let title : String
+    let imageName : String
     var body: some View {
         HStack{
-            Text("Transactions")
+            Text(title)
                 .font(.title2)
                 .bold()
             
@@ -18,7 +20,7 @@ struct TransactionRowView: View {
             Button {
                 
             } label: {
-                Image(systemName: "arrow.up.arrow.down")
+                Image(systemName: imageName)
             }
             
             
@@ -30,6 +32,7 @@ struct TransactionRowView: View {
 
 struct TransactionRowView_Previews: PreviewProvider {
     static var previews: some View {
-        TransactionRowView()
+        SectionView(title: "Transactions", imageName:"arrow.up.arrow.down")
+            .preferredColorScheme(.dark)
     }
 }

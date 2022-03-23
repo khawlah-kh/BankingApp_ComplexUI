@@ -9,6 +9,10 @@ import SwiftUI
 
 
 struct MenuHeaderView: View {
+    let imageName1  : String
+    let title : String
+    let imageName2  : String
+    
     var body: some View {
         HStack{
             Button {
@@ -37,6 +41,7 @@ struct MenuHeaderView: View {
 
 struct MenuHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuHeaderView()
+        MenuHeaderView(imageName1: "line.horizontal.3", title: "HOME", imageName2: "magnifyingglass")
+            .preferredColorScheme(.dark)
     }
 }
