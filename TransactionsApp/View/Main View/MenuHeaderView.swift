@@ -18,7 +18,6 @@ struct MenuHeaderView: View {
             Button {
             } label: {
                 Image(systemName: "line.horizontal.3")
-                
             }
             Text("HOME")
             
