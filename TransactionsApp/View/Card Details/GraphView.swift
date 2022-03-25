@@ -16,7 +16,7 @@ struct GraphView: View {
             
             GeometryReader { geometryProxy in
                 ZStack{
-                GraphBackgroundView()
+                    GraphBackgroundView()
                     ExpenseBarGraph(viewModel: viewModel, height: geometryProxy.size.height)
                     ExpenseLineGraph(data: viewModel.getExpenseDataBasedOnHeight(maxHeight: geometryProxy.size.height - 40))
                         .trim(to:startAnimatopn ? 1 : 0)
@@ -59,12 +59,9 @@ struct GraphBackgroundView : View{
                         .stroke(style: StrokeStyle(lineWidth: 0.3, dash: [5]))
                         .foregroundColor(Color.border)
                         .frame(height: 0.5)
-                      
                     Spacer()
-                    
                 }
             }
-            
             Line()
                 .stroke(lineWidth: 0.5)
                 .frame(height: 0.5)
@@ -77,7 +74,7 @@ struct Line : Shape{
         var path = Path()
         path.move(to: CGPoint(x: 0, y: 0))
         path.addLine(to:CGPoint(x: rect.width, y:0))
-      return path
+        return path
     }
 }
 
@@ -121,7 +118,7 @@ struct ExpenseBarGraph : View{
             
         }
     }
-      
+    
     func getHeightForBarChart (maxHeight : CGFloat,amount:Float)->CGFloat{
         let max = viewModel.getMaxExpense()
         let fraction = CGFloat(amount/max)
@@ -133,7 +130,7 @@ struct ExpenseBarGraph : View{
 
 struct ExpenseLineGraph : Shape {
     var data : [CGFloat]
-
+    
     func path(in rect: CGRect) -> Path {
         var path = Path()
         if data.count == 0
@@ -149,7 +146,7 @@ struct ExpenseLineGraph : Shape {
             let currentPoint = CGPoint(x: x, y: y)
             let controlPoint1 = CGPoint(x: prevPoint.x + 25, y: prevPoint.y)
             let controlPoint2 = CGPoint(x: currentPoint.x - 25, y: currentPoint.y)
-
+            
             path.addCurve(to: currentPoint, control1: controlPoint1, control2: controlPoint2)
             
             
@@ -158,5 +155,5 @@ struct ExpenseLineGraph : Shape {
         }
         return path
     }
-  
+    
 }

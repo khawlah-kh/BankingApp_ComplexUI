@@ -13,7 +13,6 @@ struct CardView: View {
         ZStack{
             RoundedRectangle(cornerRadius: 40)
                 .fill(Color.cardGradient)
-               
             VStack{
                 HStack{
                     VStack(alignment: .leading) {
@@ -37,8 +36,6 @@ struct CardView: View {
                         .foregroundColor(.white)
                         .font(.title)
                         .bold()
-                        
-                    
                 }
                 Spacer()
                 
@@ -48,8 +45,8 @@ struct CardView: View {
                         Text("****")
                             .foregroundColor(.white)
                             .kerning(3.0)
-                           .font(.title2)
-                           .bold()
+                            .font(.title2)
+                            .bold()
                         Spacer()
                     }
                     
@@ -63,10 +60,6 @@ struct CardView: View {
                 
             }
             .padding(40)
-            
-            
-            
-            
         }.padding()
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/3.5)
     }

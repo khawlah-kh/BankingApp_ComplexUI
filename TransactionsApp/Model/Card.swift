@@ -31,5 +31,5 @@ struct Card : Identifiable {
     
     var lastFourDigits : String{
         String(number.suffix(4))
-    }  
+    }
 }

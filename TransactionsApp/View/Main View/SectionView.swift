@@ -18,12 +18,9 @@ struct SectionView: View {
             
             Spacer()
             Button {
-                
             } label: {
                 Image(systemName: imageName)
-            }
-            
-            
+            } 
         }
         .foregroundColor(.white)
         .padding(.horizontal)

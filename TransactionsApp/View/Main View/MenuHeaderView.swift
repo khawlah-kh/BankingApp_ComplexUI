@@ -18,7 +18,7 @@ struct MenuHeaderView: View {
             Button {
             } label: {
                 Image(systemName: "line.horizontal.3")
-                  
+                
             }
             Text("HOME")
             
@@ -26,11 +26,7 @@ struct MenuHeaderView: View {
             Button {
             } label: {
                 Image(systemName: "magnifyingglass")
-                   
-                   
             }
-            
-            
         }
         .font(.title3)
         .foregroundColor(.white)

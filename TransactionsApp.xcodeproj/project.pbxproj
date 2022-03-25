@@ -64,6 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9079640D27ED8AE000A8F110 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				90B6927927E5A6AB00D71829 /* ContentView.swift */,
+				90B6929627E5C91A00D71829 /* CardView.swift */,
+				90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */,
+				90A2777427E6E9C400867CEB /* SectionView.swift */,
+				90A2777627E6EAF400867CEB /* TransactionListRow.swift */,
+				90A2777827E6FC5300867CEB /* TransactionListView.swift */,
+				90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
 		90A7322327E8418B00B1B6A8 /* Card Details */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +111,8 @@
 				90B6928927E5A7A000D71829 /* App */,
 				90B6928827E5A73E00D71829 /* View Model */,
 				90B6928727E5A73700D71829 /* Model */,
-				90B6928627E5A72600D71829 /* Utils */,
 				90B6928527E5A71F00D71829 /* View */,
+				90B6928627E5A72600D71829 /* Utils */,
 				90B6927B27E5A6AC00D71829 /* Assets.xcassets */,
 				90B6927D27E5A6AC00D71829 /* Preview Content */,
 			);
@@ -116,14 +130,8 @@
 		90B6928527E5A71F00D71829 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9079640D27ED8AE000A8F110 /* Main View */,
 				90A7322327E8418B00B1B6A8 /* Card Details */,
-				90B6927927E5A6AB00D71829 /* ContentView.swift */,
-				90B6929627E5C91A00D71829 /* CardView.swift */,
-				90A2777227E6E7CE00867CEB /* MenuHeaderView.swift */,
-				90A2777427E6E9C400867CEB /* SectionView.swift */,
-				90A2777627E6EAF400867CEB /* TransactionListRow.swift */,
-				90A2777827E6FC5300867CEB /* TransactionListView.swift */,
-				90A2777A27E6FEFC00867CEB /* ListHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

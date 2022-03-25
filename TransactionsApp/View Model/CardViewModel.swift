@@ -6,11 +6,7 @@
 //
 
 import SwiftUI
-
-
-
 class CardViewModel : ObservableObject{
-    
     let currentDateString = "19 Mar 2022"
     var lastTransactionId = UUID()
     @Published var expenses = DummyData.expenses
@@ -48,26 +44,20 @@ class CardViewModel : ObservableObject{
     }
     
     func getTransactions(for date : String,number:String)->[Transaction]{
-        
         var transactions : [Transaction] = []
         for transaction in  DummyData.transactions{
             if transaction.card == number && transaction.date == date {
                 transactions.append(transaction)
             }
         }
-        
         if transactions.count > 0{
             lastTransactionId = transactions.last!.id
         }
-        
         return transactions
     }
     
     func getMaxExpense()->Float{
-        
         return DummyData.transactions.map {$0.amount }.max()!
-        
-        
     }
     
     func selectedExpense(expense:Expense){
@@ -88,7 +78,6 @@ class CardViewModel : ObservableObject{
         
         var heights:[CGFloat] = []
         let max = getMaxExpense()
-        
         for expense in DummyData.expenses{
             let fraction : CGFloat = CGFloat(expense.amount / max)
             let barHeight = maxHeight - CGFloat(fraction*maxHeight)
