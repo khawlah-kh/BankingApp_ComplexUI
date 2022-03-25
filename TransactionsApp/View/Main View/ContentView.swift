@@ -31,7 +31,6 @@ struct ContentView: View {
                                 }
                                 .padding()
                         }
-                        Spacer()
                     }
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/3)
                     .opacity(startAnimation ? 1 : 0)
